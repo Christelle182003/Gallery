@@ -206,6 +206,24 @@ footer{
       .inscription {
         display: none;
     } 
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .logo-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+
 }
 
     
