@@ -190,10 +190,14 @@ footer{
         right: 0;
         padding: 0 2rem;
         top: 75px;
-        background-image: linear-gradient(180deg, #74d7bb, #53c8b6, #35a99c);
+        background-image: white;
         display: none;
         transition: all 0.25s;
     }
+
+   #cross{
+    display: none;
+   }
 
     .menu .menu-list {
         flex-direction: column;
